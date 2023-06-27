@@ -22,7 +22,7 @@ public class UsuarioController {
     @GetMapping("/{id}")
     public ResponseEntity<UsuarioDto> obtenerUsuario(@PathVariable Integer id) {
         final UsuarioDto usuario = facade.getUsuario(id);
-        return ResponseEntity.ok(Usuario);
+        return ResponseEntity.ok(usuario);
 
     }
 }

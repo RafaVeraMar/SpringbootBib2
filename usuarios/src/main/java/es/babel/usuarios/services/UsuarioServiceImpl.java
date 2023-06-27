@@ -39,7 +39,7 @@ public UsuarioServiceImpl(UsuarioRepository usuarioRepository) {
         usuario.setCorreo(user.getCorreo());
     }
     if (user.getTelefono() != null) {
-        usuario.getTelefono(user.getTelefono());
+        usuario.setTelefono(user.getTelefono());
     }
         return null;
     }

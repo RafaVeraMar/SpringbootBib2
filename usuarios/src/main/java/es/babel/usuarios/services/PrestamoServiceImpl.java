@@ -17,7 +17,7 @@ public class PrestamoServiceImpl implements PrestamoService{
 
     @Override
     public Prestamo getPrestamo(Integer id) {
-        final Prestamo prestamo = prestamoRepository.findById(id).orElse(new Prestamo())
+        final Prestamo prestamo = prestamoRepository.findById(id).orElse(new Prestamo());
         return prestamo;
     }
 
