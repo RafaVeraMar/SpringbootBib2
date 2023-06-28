@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;7
 @RestControllerAdvice
 public class UsuarioExceptionHandler {
+
     // TODO completar este handler
     @ExceptionHandler(EntityNotFoundException.class)
 
