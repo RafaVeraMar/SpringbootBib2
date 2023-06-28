@@ -2,6 +2,7 @@ package es.babel.usuarios.services;
 
 import es.babel.usuarios.model.Usuario;
 import es.babel.usuarios.repositories.UsuarioRepository;
+import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,7 +18,7 @@ public UsuarioServiceImpl(UsuarioRepository usuarioRepository) {
 
     @Override
     public Usuario getUsuario(Integer id) {
-    final Usuario usuario = userRepository.findById(id).orElse(new Usuario());
+    final Usuario usuario = userRepository.findById(id).orElseThrow() -> new EntityNotFoundException("Usuario with ID: " + id + "NOT FOUND"));
         return usuario;
     }
 
