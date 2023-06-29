@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import es.babel.biblioteca.mappers.EditorialMapper;
-import es.babel.biblioteca.modelo.Editorial;
+import es.babel.biblioteca.mappers.modelo.Editorial;
 import es.babel.biblioteca.services.EditorialService;
 import es.babel.biblioteca.web.dto.request.EditorialReq;
 import es.babel.biblioteca.web.dto.response.EditorialResp;

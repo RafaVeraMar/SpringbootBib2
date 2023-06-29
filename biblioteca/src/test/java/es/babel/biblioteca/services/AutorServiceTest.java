@@ -18,7 +18,7 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import es.babel.biblioteca.modelo.Autor;
+import es.babel.biblioteca.mappers.modelo.Autor;
 import es.babel.biblioteca.repositories.AutorRepository;
 import jakarta.persistence.EntityNotFoundException;
 

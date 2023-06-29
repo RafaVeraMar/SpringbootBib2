@@ -2,7 +2,6 @@ package es.babel.biblioteca.facades;
 
 import java.util.List;
 
-import es.babel.biblioteca.modelo.Autor;
 import es.babel.biblioteca.web.dto.request.AutorRequest;
 import es.babel.biblioteca.web.dto.response.AutorResponse;
 

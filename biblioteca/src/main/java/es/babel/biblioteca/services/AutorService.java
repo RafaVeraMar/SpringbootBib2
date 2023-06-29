@@ -2,8 +2,7 @@ package es.babel.biblioteca.services;
 
 import java.util.List;
 
-import es.babel.biblioteca.modelo.Autor;
-import es.babel.biblioteca.web.dto.request.AutorRequest;
+import es.babel.biblioteca.mappers.modelo.Autor;
 
 public interface AutorService {
 

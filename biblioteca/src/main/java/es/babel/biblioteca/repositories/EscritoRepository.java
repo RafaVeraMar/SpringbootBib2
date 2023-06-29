@@ -2,12 +2,11 @@ package es.babel.biblioteca.repositories;
 
 import java.util.List;
 
-import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.transaction.annotation.Transactional;
 
-import es.babel.biblioteca.modelo.Escrito;
+import es.babel.biblioteca.mappers.modelo.Escrito;
 
 public interface EscritoRepository extends CrudRepository<Escrito, Integer>{
 

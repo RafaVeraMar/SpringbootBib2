@@ -8,10 +8,9 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
 import es.babel.biblioteca.mappers.DocumentoMapper;
-import es.babel.biblioteca.modelo.Autor;
-import es.babel.biblioteca.modelo.Documento;
-import es.babel.biblioteca.modelo.Editorial;
-import es.babel.biblioteca.repositories.AutorRepository;
+import es.babel.biblioteca.mappers.modelo.Autor;
+import es.babel.biblioteca.mappers.modelo.Documento;
+import es.babel.biblioteca.mappers.modelo.Editorial;
 import es.babel.biblioteca.services.AutorService;
 import es.babel.biblioteca.services.DocumentosService;
 import es.babel.biblioteca.services.EditorialService;

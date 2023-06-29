@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import es.babel.biblioteca.mappers.AutorMapper;
-import es.babel.biblioteca.modelo.Autor;
+import es.babel.biblioteca.mappers.modelo.Autor;
 import es.babel.biblioteca.services.AutorService;
 import es.babel.biblioteca.web.dto.request.AutorRequest;
 import es.babel.biblioteca.web.dto.response.AutorResponse;

@@ -2,7 +2,7 @@ package es.babel.biblioteca.services;
 
 import java.util.List;
 
-import es.babel.biblioteca.modelo.Editorial;
+import es.babel.biblioteca.mappers.modelo.Editorial;
 
 public interface EditorialService {
 	

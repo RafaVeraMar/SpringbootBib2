@@ -2,8 +2,7 @@ package es.babel.biblioteca.services;
 
 import java.util.List;
 
-import es.babel.biblioteca.modelo.Documento;
-import es.babel.biblioteca.web.dto.request.DocumentoReq;
+import es.babel.biblioteca.mappers.modelo.Documento;
 
 public interface DocumentosService {
 

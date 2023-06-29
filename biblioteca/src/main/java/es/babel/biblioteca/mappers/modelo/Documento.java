@@ -1,4 +1,4 @@
-package es.babel.biblioteca.modelo;
+package es.babel.biblioteca.mappers.modelo;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import es.babel.biblioteca.modelo.Documento;
+import es.babel.biblioteca.mappers.modelo.Documento;
 import es.babel.biblioteca.repositories.DocumentoRepository;
 import jakarta.persistence.EntityNotFoundException;
 

@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
-import es.babel.biblioteca.modelo.Autor;
+import es.babel.biblioteca.mappers.modelo.Autor;
 
 
 public interface AutorRepository extends CrudRepository<Autor, Integer>{

@@ -2,7 +2,7 @@ package es.babel.biblioteca.services;
 
 import java.util.List;
 
-import es.babel.biblioteca.modelo.Escrito;
+import es.babel.biblioteca.mappers.modelo.Escrito;
 
 public interface EscritoService {
 
